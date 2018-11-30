@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css\main.css">
+  <!--  <audio>
+	     <source src="sounds\263133__pan14__tone-beep.wav"></source>
+	     <source src="sounds\263133__pan14__tone-beep.wav"></source>
+	     Your browser isn't invited for super fun audio time.
+    </audio>-->
+
+    <script src="js/javascript.js"></script>
+    <script src="js/menus.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/enemies.js"></script>
+  </head>
+  <body>
+    <section id="screen">
+
+      <section id="header">
+        <span id="title-header">
+          <h1>GODLESS</h1>
+        </span>
+      </section>
+
+      <secion id="area-1">
+            <div id="narrator">
+              <p id="A1">Your Character is a young man.</p>
+              <p id="A1">What is his name? Enter in the field below.</p>
+            </div>
+      </secion>
+
+      <secion id="area-2">
+
+        <div id="input-area">
+          <form id="name-input" onclick="return nameConfirmed()">
+            <input id="name-input-box" type="text" name="name" value="Henry" required>
+            <br><br>
+            <input type="button" class="main-menu-button button-text submit" id="submit" value="SUBMIT">
+          </form>
+        </div>
+
+      </secion>
+
+      <secion id="footer">
+        <h4>CREATED BY GIORGO EFESOPOULOS</h4>
+      </secion>
+
+
+    </section>
+  </body>
+</html>

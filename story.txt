@@ -1,0 +1,132 @@
+Story
+
+*Some changes to test GitHub
+
+1st Style - Headings
+2nd Style - Characters
+3rd Style - Locations
+4th Style - Enemies
+
+The Main Characters
+
+Henry
+	- Henry F is man in his late 20s.
+	- He is a Forester, meaning he manages forests and its local wildlife
+	- As a forester he is smart and resourceful. He has a hunting license and a rifle (at the work cabin by the forest)
+	- He is fairly knowledgeable on how to survive
+	- He lives on the edge of the city, around 5 miles from the cabin in the forest.
+	- He has family but they live in another city, when the power went down early on he lost his means of getting in touch with them.
+	- He has a few good friends in the city but again he lost touch when the power went out. Hasn't heard from anyone in nearly 2 weeks.
+	- He was married after university for 3 years to his sweetheart but one day last year she died in her sleep.
+	- He's been out on 2 supply runs already. One very early when the riots were just starting and one more recently.
+
+Beans
+	- Beans is a Black German Shepherd puppy around 6 months old.
+	- Already getting big, he was abandoned by his owners not long after the rioting started and they fled the city.
+	- He is an outcast. You find him injured after a group of older dogs are attacking him.
+	- He is a good boy.
+
+Emily
+	- A few years younger than Henry.
+	- She had almost finished her studies as a surgeon
+	- She is very intelligent, brave and will grow to become very good in emergencies.
+	- She does not have much actual surgical experience yet.
+	- Never been in a serious relationship.
+	- When the riots hit she started working non stop helping at the hospital (Which is not far away but further into the city)
+	- One of her colleagues was killed when the hospital was eventually overtaken by a gang looking for food and supplies. She managed to escape. They still occupy the Hospital so now she hasn't gone back.
+	- She did take a few medical supplies with her before she managed to escape.
+	- Having been so busy when all this started she didn't have much time to prepare herself for what to do now.
+
+Locations
+
+Henry's apartment
+	- Located on the edge of the city
+	- In between the Hospital and the Forest
+	-
+
+The Cabin in the Forest
+	- 5km away from Henry's apartment
+	- Henry worked from here most days. There are a lot of supplies and equipment there
+
+The Hospital
+	- Around 3km away into the City
+	- Has been taken over by a gang who are using it as a fortress
+	- Lots of medical supplies
+
+The Church
+
+The Supermarket
+
+Enemies
+
+Hosptial Gang
+	- Have taken over the hospital in the city
+	- Heavily influenced initial rioting
+	- Quite well equipped now and are raiding places from the hospital which they are fortifying
+	- You may encounter gang members sometimes as you travel around in the city
+
+Wild Dogs
+	- You encounter some wild dogs attacking Beans when you first find him
+	- You may encounter more as you travel around
+
+The Story
+
+	- The first part of the story will take place around 3 weeks after the initial outbreak.
+	- Subsequent parts may take place substantially further down the time line.
+
+	- You are introduced to Henry
+	- Henry's internal monologue helps introduce you to the bleak world he now lives in.
+		- The world is experiencing pandemic crop failure
+		- Food is becoming scarce as riots have gotten out of control
+		- Infrastructure is breaking down. There's no zombies but people are going crazy and starting to fight for food
+		- Henry has been on his own for the past 3 weeks.
+		- With food running out he's finally contemplating venturing out to see what the world is like out there. He currently has no first hand experience aside from seeing the initial rioting on the news before the power went out.
+		- Near the beginning he did head to a nearby supermarket to see if he could gather some supplies and he came back with: - a bag full of tinned food, some water and a few survival related supplies
+		- There are now gangs of people that roam the streets, violence is everywhere and people are getting violent towards each other as desperation for food has set in.
+		- You need to make a more long term plan. The woods might be a good option as there are plenty of fruits and berries and animals you could hunt.
+		- The cabin is quite far though and making the journey unprepared could be dangerous so you need to be as prepared as you can before you go.
+
+	- He eventually prepares a bit and leaves 'Henry's Apartment' to see if he can find some more food and supplies.
+		- The streets are completely different now, the riots have quieted down but there are remnants everywhere.
+		- People have died already and there are bodies in the streets.
+	- You make your way towards the supermarket to see if there's anything useful left there.
+		- Fortunately there is no one here at the moment, you're looking for :
+			- A Torch
+			- Batteries
+			- Food
+			- Medical Supplies (You won't find)
+			- Maybe fishing line?
+			- Salt
+			- A weapon
+			- Protective wear
+		- Once you've finished finding what you can at the supermarket you head back out the way you came.
+
+	- There are some wild dogs attacking a smaller dog outside and you instinctively try to chase them off
+		- They attack and this is your first battle encounter
+		- Once you beat the dogs you are left to rescue Beans
+
+	- You bring him back to your apartment and try and clean up some of the blood but then you remember that your neighbor is training to be a surgeon and might be able to help.
+		- You knock on Emily's door.
+		- She's distrusting at first but you convince her that's its you and that you need her help
+		- She eventually agrees and as soon as she sees the dog she begins helping immediately.
+		- You both work on saving the dog and eventually he is stable and you can relax.
+		- You ask her if she'd like to share some of the food you found and she agrees
+		- Normal conversation ensues and she eventually agrees to join you towards the cabin. She wants to find a way to get in touch with her family from the next city over eventually.
+		- They both sleep in the living room with the dog until morning.
+
+		- END OF DAY 1
+
+
+Chapter 1
+
+	- What the hell was I thinking?
+	- Beans? Why did I only grab beans? I hate beans.
+	- I went out one time to the mega-mart to pick up supplies when this shit started and it was so insane down there. I just ran to the food isle and picked up whatever I could get my hands on. People were already panicking and there were fights breaking out all over the store. I don't even think I'd looked at what I managed to grab until I got back here.
+	- I am starving though.
+		A - Eat the beans
+		B - Put the can away
+		C - Throw the can out the window
+
+	A - You begrudgingly eat the beans. You're feeling a bit more full.
+	B - You put the can back in your rucksack.
+	C - You throw the can out the window and it hits a parked car..d

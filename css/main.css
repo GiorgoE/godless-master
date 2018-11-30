@@ -1,0 +1,338 @@
+
+/*Define CSS Variables*/
+:root {
+  --darkest-grey: #303030;
+  --darker-grey:#363636;
+  --dark-grey:#404040;
+  --grey:#707070;
+  --light-grey:#808080;
+  --lighter-grey:#d0d0d0;
+  --lightest-grey:#e9e9e9;
+  --red-1:#bf2d2d;
+  --transition-speed: 0s;
+  --transition-speed-2: 0s;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('http://test.efesop.com/godless-2/fonts/PressStart2P.woff2') format('woff2'),
+         url('http://test.efesop.com/godless-2/fonts/PressStart2P.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/*Pre JS Styling*/
+      html {
+        height: 100vh;
+      }
+  /*Sceen Options*/
+      #screen {
+        /*height: 667px;
+        width: 375px;*/
+        display: flex;
+        background-color: var(--darkest-grey);
+        text-align:center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+      }
+
+  /*Basic formatting*/
+      * {
+
+        -webkit-transition: opacity var(--transition-speed);
+         -moz-transition: opacity var(--transition-speed);
+         -ms-transition: opacity var(--transition-speed);
+         -o-transition: opacity var(--transition-speed);
+         transition: opacity var(--transition-speed);
+      }
+
+      /*Font-Family*/
+      body, section, h1, h2, h3, h4, h5, h6, p, ol, ul, li, input {
+        font-family: 'Press Start 2P', Microsoft Himalaya, times new roman;
+      }
+
+      body {
+        width: auto;
+        /*max-height: 667px;*/
+
+
+        background-color: var(--darkest-grey);
+        color: var(--lighter-grey);
+        font-family: 'Press Start 2P', Microsoft Himalaya, times new roman;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+        margin-top: 0px;
+        margin-left: 4vh;
+        margin-right: 4vh;
+      }
+
+      /*H1 Stylings*/
+      h1 {
+        font-size: 3.5vh;
+        letter-spacing: 3vh;
+        text-align: center;
+        font-weight: 100;
+        text-indent: 3vh;
+        line-height: 8vh;
+      }
+      #header {
+        /*height: 23.4vh;*/
+        margin-top: 0vh;
+        /*background-color: orange;*/
+      }
+
+      #title-header h1{
+
+        /*background-color: green;*/
+      }
+  /*Logo Box*/
+      #area-1 {
+        /*max-height: 29.5vh;
+        background-color: blue; */
+
+      }
+
+      #logo-img {
+        height: 20vh;
+        /*background-color: var(--dark-grey);*/
+      }
+
+      /*Area 2 Format*/
+      #area-2 {
+        /*
+        background-color: green;
+        */
+      }
+
+      /*Button Formatting*/
+
+          /*Button area*/
+          #button-area {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /*
+            background-color: purple;
+            */
+          }
+
+          /*Button link Format*/
+          .button-link {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none;
+            /*background-color: red;*/
+          }
+
+
+
+          /*Button Format*/
+          .main-menu-button {
+
+            width: 28vh;
+            background-color: var(--darker-grey);
+            border-width: 3px;
+            border-color: var(--dark-grey);
+            border-style: outset;
+            margin: 2vh 0px 2vh 0px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+
+          }
+
+          .main-menu-button:hover {
+            border-style: inset;
+          }
+
+          .main-menu-button:hover .button-text {
+            color: var(--lightest-grey);
+          }
+
+          /*Button Text Format*/
+          .button-text {
+
+            font-size: 1.3vh;
+            letter-spacing: 0.9vh;
+            text-indent: 0.9vh;
+            font-weight: 100;
+            color: var(--lighter-grey);
+            line-height: 3.3vh;
+
+          }
+
+          /*
+          .button-text:hover {
+            color: blue;
+          }
+          */
+
+      /*Footer text*/
+
+      #footer {
+        /*
+        background-color: yellow;
+        */
+
+      }
+
+        #footer h4 {
+        text-align: center;
+        font-size: 1vh;
+        line-height: 2.5vh;
+        letter-spacing: 0.4vh;
+        text-indent: 0.7vh;
+        font-weight: 100;
+        color: var(--grey);
+        padding-bottom: 4vh;
+      }
+
+      /*Narrator Box*/
+      #narrator {
+        height: 30vh;
+        background-color: var(--darker-grey);
+        overflow-y: scroll;
+        overflow-x: hidden;
+        border: 5px solid;
+        border-color: var(--dark-grey);
+        width: 40vh;
+        margin-bottom: 3vh;
+      }
+
+      #narrator p {
+        font-size: 1.5vh;
+        line-height: 2.5vh;
+        float: left;
+        margin-left: 2vh;
+        display: block;
+        width: 90%;
+        text-align: left;
+        margin-top: 2vh;
+        margin-bottom: 0vh;
+      }
+
+      /*Custom Scrollbar*/
+      /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        #input-area {
+          text-align: center;
+          /*width: 30vh;*/
+
+          /*justify-content: center;*/
+        }
+
+      /*Input area styling*/
+      #name-input-box {
+        height: 3vh;
+        width: 20vh;
+        font-size: 2vh;
+        text-align: center;
+        background-color: var(--darker-grey);
+        border: 5px solid;
+        border-color: var(--dark-grey);
+        color: var(--lighter-grey);
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        text-transform: capitalize;
+        margin: 0 auto 0 auto;
+        display: block;
+      }
+
+      /*Submit buttons*/
+      .submit {
+          padding: 3vh;
+      }
+
+      /*adds a Spacer*/
+      #spacer {
+        height: 6vh;
+      }
+
+      /*You have x points left to spend*/
+      .instruction-text {
+        font-size: 1.2vh;
+
+        font-weight: 100;
+        line-height: 3vh;
+      }
+
+      #stats {
+        display: block;
+        /*background-color: green;*/
+        width: 45vh;
+        float: left;
+      }
+
+      /*Removes bullet points from list*/
+      #stats ul {
+        list-style: none;
+        letter-spacing: 1vh;
+        text-align: left;
+      }
+
+      #stats ul li {
+        list-style: none;
+        letter-spacing: 1vh;
+      }
+
+      /*Formats attributes choice text*/
+      .attribute-text {
+        font-size: 1.3vh;
+        letter-spacing: 0.5vh;
+        /*text-indent: 0.9vh;*/
+        font-weight: 100;
+        color: var(--lighter-grey);
+      }
+
+      /*Button Format*/
+      .attribute-button {
+        font-size: 1vh;
+        width: 3vh;
+        height: 3vh;
+        margin-right: 2vh;
+        background-color: var(--darker-grey);
+        border-width: 3px;
+        border-color: var(--dark-grey);
+        border-style: outset;
+        margin: 1vh 1vh 1vh 1vh;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: var(--lighter-grey);
+      }
+
+      .attribute-button:hover {
+        border-style: inset;
+      }
+
+      .highlighted {
+        color: var(--red-1);
+      }
