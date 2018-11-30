@@ -1,11 +1,5 @@
 Story
 
-*Some changes to test GitHub
-*Some more changes to Gitttittitit
-*TEsting out branch
-
-*NEW CHANGES
-
 1st Style - Headings
 2nd Style - Characters
 3rd Style - Locations
