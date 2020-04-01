@@ -1,4 +1,3 @@
-
 //Confirm player.js is Loaded
 console.log("Loaded player.js");
 
