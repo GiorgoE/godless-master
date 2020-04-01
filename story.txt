@@ -5,7 +5,7 @@ Story
 3rd Style - Locations
 4th Style - Enemies
 
-The Main Characters - Test Change 1
+The Main Characters
 
 Henry
 	- Henry F is man in his late 20s.
@@ -57,7 +57,7 @@ The Supermarket
 
 Enemies
 
-Hosptial Gang
+Hospital Gang
 	- Have taken over the hospital in the city
 	- Heavily influenced initial rioting
 	- Quite well equipped now and are raiding places from the hospital which they are fortifying

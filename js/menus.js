@@ -5,6 +5,7 @@ console.log("Loaded menus.js");
 var bleep = new Audio();
 bleep.src = "http://test.efesop.com/godless-2/sounds/bleep.mp3";
 
+
 //make it easier to select game sections
 let getHeader = document.querySelector("#header");
 let getArea1 = document.querySelector("#area-1");
@@ -25,8 +26,12 @@ function reloadGame_js()
   console.log("game.js reloaded");
 }
 
-
-
+//Initialize beep function
+function playBleep() {
+  //Sets the beep back to start before playing again. Fixes bug where bleep doesnt play every time it's pressed.
+  bleep.currentTime = 0;
+  bleep.play();
+}
 
 //Transition Effects -"Fades out".. then "fades back in." - There is no fade.
 function fadeOut() {
@@ -149,7 +154,7 @@ function yourName() {
 
   getArea1.innerHTML = '<div id="narrator">'+ narrator[0] +'</div>';
 
-  getArea2.innerHTML = '<div id="input-area"><form id="name-input"><input id="name-input-box" type="text" name="name" value="Henry" required><br><br><input type="button" class="main-menu-button button-text submit" id="submit" onclick="return nameConfirmed()" value="SUBMIT"></form></div>';
+  getArea2.innerHTML = '<div id="input-area"><form id="name-input"><input id="name-input-box" type="text" name="name" value="Henry" required><input type="button" class="main-menu-button button-text submit" id="submit" onclick="return nameConfirmed()" value="SUBMIT"></form></div>';
 
   getFooter.innerHTML = '<h4>CREATED BY GIORGO EFESOPOULOS</h4>';
 
@@ -196,6 +201,6 @@ function nameConfirmed2() {
 //insert Attributes menu, colour numbers. Still need to make the + and - buttons work.
 function updateStats(){
   let getArea2 = document.querySelector("#area-2");
-  getArea2.innerHTML = '<div id="input-area"><form id="stats"><br><h3 class="instruction-text">YOU HAVE <span class="highlighted">'+player.attributePoints+'</span> POINTS LEFT TO SPEND</h3><ul><li class ="attribute-text">STRENGTH <span class="highlighted">'+player.strength+'</span> <input type="button" class="attribute-button" onClick="minusStrength()" id="" value="-"><input type="button" class="attribute-button" onClick="addStrength()" id="" value="+"></li><li class ="attribute-text">ACCURACY <span class="highlighted">'+player.accuracy+'</span> <input type="button" class="attribute-button" onClick="minusAccuracy()" id="" value="-"><input type="button" class="attribute-button" onClick="addAccuracy()" id="" value="+"></li><li class ="attribute-text">CHARISMA <span class="highlighted">'+player.charisma+'</span> <input type="button" class="attribute-button" onClick="minusCharisma()" id="" value="-"><input type="button" class="attribute-button" onClick="addCharisma()" id="" value="+"></li><li class ="attribute-text">DEXTERITY <span class="highlighted">'+player.dexterity+'</span> <input type="button" class="attribute-button" onClick="minusDexterity()" id="" value="-"><input type="button" class="attribute-button" onClick="addDexterity()" id="" value="+"></li><li class ="attribute-text">MELEE <span class="highlighted">'+player.melee+'</span> <input type="button" class="attribute-button" onClick="minusMelee()" id="" value="-"><input type="button" class="attribute-button" onClick="addMelee()" id="" value="+"></li><li class ="attribute-text">RANGED <span class="highlighted">'+player.ranged+'</span> <input type="button" class="attribute-button" onClick="minusRanged()" id="" value="-"><input type="button" class="attribute-button" onClick="addRanged()" id="" value="+"></li><li class ="attribute-text">EVASION <span class="highlighted">'+player.evasion+'</span> <input type="button" class="attribute-button" onClick="minusEvasion()" id="" value="-"><input type="button" class="attribute-button" onClick="addEvasion()" id="" value="+"></li><li class ="attribute-text">LUCK <span class="highlighted">'+player.luck+'</span> <input type="button" class="attribute-button" onClick="minusLuck()" id="" value="-"><input type="button" class="attribute-button" onClick="addLuck()" id="" value="+"></li></ul><input type="button" class="main-menu-button button-text submit" id="start" onclick="return startGame()" value="START"></form></div>';
+  getArea2.innerHTML = '<div id="input-area"><form id="stats"><br><h3 class="instruction-text">YOU HAVE <span class="highlighted">'+player.attributePoints+'</span> POINTS LEFT TO SPEND</h3><ul><li class ="attribute-text"><span class="attribute-name">STRENGTH </span><span class="highlighted">'+player.strength+'</span> <input type="button" class="attribute-button" onClick="minusStrength()" id="" value="-"><input type="button" class="attribute-button" onClick="addStrength()" id="" value="+"></li><li class ="attribute-text"><span class="attribute-name">ACCURACY </span><span class="highlighted">'+player.accuracy+'</span> <input type="button" class="attribute-button" onClick="minusAccuracy()" id="" value="-"><input type="button" class="attribute-button" onClick="addAccuracy()" id="" value="+"></li><li class ="attribute-text"><span class="attribute-name">CHARISMA </span><span class="highlighted">'+player.charisma+'</span> <input type="button" class="attribute-button" onClick="minusCharisma()" id="" value="-"><input type="button" class="attribute-button" onClick="addCharisma()" id="" value="+"></li><li class ="attribute-text"><span class="attribute-name">DEXTERITY </span><span class="highlighted">'+player.dexterity+'</span> <input type="button" class="attribute-button" onClick="minusDexterity()" id="" value="-"><input type="button" class="attribute-button" onClick="addDexterity()" id="" value="+"></li><li class ="attribute-text"><span class="attribute-name">MELEE </span><span class="highlighted">'+player.melee+'</span> <input type="button" class="attribute-button" onClick="minusMelee()" id="" value="-"><input type="button" class="attribute-button" onClick="addMelee()" id="" value="+"></li><li class ="attribute-text"><span class="attribute-name">RANGED </span><span class="highlighted">'+player.ranged+'</span> <input type="button" class="attribute-button" onClick="minusRanged()" id="" value="-"><input type="button" class="attribute-button" onClick="addRanged()" id="" value="+"></li><li class ="attribute-text"><span class="attribute-name">EVASION </span><span class="highlighted">'+player.evasion+'</span> <input type="button" class="attribute-button" onClick="minusEvasion()" id="" value="-"><input type="button" class="attribute-button" onClick="addEvasion()" id="" value="+"></li><li class ="attribute-text"><span class="attribute-name">LUCK </span><span class="highlighted">'+player.luck+'</span> <input type="button" class="attribute-button" onClick="minusLuck()" id="" value="-"><input type="button" class="attribute-button" onClick="addLuck()" id="" value="+"></li></ul><input type="button" class="main-menu-button button-text submit" id="start" onclick="return startGame()" value="START"></form></div>';
   console.log("Updated Stats");
 }

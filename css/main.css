@@ -24,7 +24,7 @@
 
 /*Pre JS Styling*/
       html {
-        height: 100vh;
+
       }
   /*Sceen Options*/
       #screen {
@@ -37,6 +37,10 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        /*Vertically align */
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
 
       }
 
@@ -57,6 +61,7 @@
 
       body {
         width: auto;
+        height: 100%;
         /*max-height: 667px;*/
 
 
@@ -70,22 +75,22 @@
         align-items: center;
         vertical-align: middle;
         margin-top: 0px;
-        margin-left: 4vh;
-        margin-right: 4vh;
+        margin-left: 10px;
+        margin-right: 10px;
       }
 
       /*H1 Stylings*/
       h1 {
-        font-size: 3.5vh;
-        letter-spacing: 3vh;
+        font-size: 1.5rem;
+        letter-spacing: 1rem;
         text-align: center;
         font-weight: 100;
-        text-indent: 3vh;
-        line-height: 8vh;
+        line-height: 3rem;
+        text-indent: 2rem;
       }
       #header {
-        /*height: 23.4vh;*/
-        margin-top: 0vh;
+
+        margin-top: 0;
         /*background-color: orange;*/
       }
 
@@ -101,7 +106,7 @@
       }
 
       #logo-img {
-        height: 20vh;
+        height: 150px;
         /*background-color: var(--dark-grey);*/
       }
 
@@ -139,12 +144,12 @@
           /*Button Format*/
           .main-menu-button {
 
-            width: 28vh;
+            width: 190px;
             background-color: var(--darker-grey);
             border-width: 3px;
             border-color: var(--dark-grey);
             border-style: outset;
-            margin: 2vh 0px 2vh 0px;
+            margin: 0.8rem 0px 0.8rem 0px;
             -webkit-transition-duration: 0.4s; /* Safari */
             transition-duration: 0.4s;
             cursor: pointer;
@@ -162,12 +167,12 @@
           /*Button Text Format*/
           .button-text {
 
-            font-size: 1.3vh;
-            letter-spacing: 0.9vh;
-            text-indent: 0.9vh;
+            font-size: 0.6rem;
+            letter-spacing: 0.3rem;
+            text-indent: 0.3rem;
             font-weight: 100;
             color: var(--lighter-grey);
-            line-height: 3.3vh;
+            line-height: 1rem;
 
           }
 
@@ -188,37 +193,37 @@
 
         #footer h4 {
         text-align: center;
-        font-size: 1vh;
-        line-height: 2.5vh;
-        letter-spacing: 0.4vh;
-        text-indent: 0.7vh;
+        font-size: 0.5rem;
+        line-height: 1rem;
+        letter-spacing: 0.2rem;
+        text-indent: 0.3rem;
         font-weight: 100;
         color: var(--grey);
-        padding-bottom: 4vh;
+        padding-bottom: 2rem;
       }
 
       /*Narrator Box*/
       #narrator {
-        height: 30vh;
+        height: 250px;
         background-color: var(--darker-grey);
         overflow-y: scroll;
         overflow-x: hidden;
         border: 5px solid;
         border-color: var(--dark-grey);
-        width: 40vh;
-        margin-bottom: 3vh;
+        width: 300px;
+        margin-bottom: 10px;
       }
 
       #narrator p {
-        font-size: 1.5vh;
-        line-height: 2.5vh;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
         float: left;
-        margin-left: 2vh;
+        margin-left: 10px;
         display: block;
         width: 90%;
         text-align: left;
-        margin-top: 2vh;
-        margin-bottom: 0vh;
+        margin-top: 10px;
+        margin-bottom: 0;
       }
 
       /*Custom Scrollbar*/
@@ -244,23 +249,22 @@
 
         #input-area {
           text-align: center;
-          /*width: 30vh;*/
+          /*width: 30rem;*/
 
           /*justify-content: center;*/
         }
 
       /*Input area styling*/
       #name-input-box {
-        height: 3vh;
-        width: 20vh;
-        font-size: 2vh;
+        width: 200px;
+        font-size: 1rem;
         text-align: center;
         background-color: var(--darker-grey);
         border: 5px solid;
         border-color: var(--dark-grey);
         color: var(--lighter-grey);
-        padding-top: 1vh;
-        padding-bottom: 1vh;
+        padding-top: 8px;
+        padding-bottom: 8px;
         text-transform: capitalize;
         margin: 0 auto 0 auto;
         display: block;
@@ -268,65 +272,79 @@
 
       /*Submit buttons*/
       .submit {
-          padding: 3vh;
+          padding: 1.5rem;
+          margin-top: 20px;
       }
 
       /*adds a Spacer*/
       #spacer {
-        height: 6vh;
+        height: 3rem;
       }
 
       /*You have x points left to spend*/
       .instruction-text {
-        font-size: 1.2vh;
-
+        font-size: 0.5rem;
         font-weight: 100;
-        line-height: 3vh;
+        letter-spacing: 0.1rem;
+        line-height: 1.2rem;
       }
 
       #stats {
         display: block;
-        /*background-color: green;*/
-        width: 45vh;
+        background-color: /*darkgreen;*/
         float: left;
       }
 
       /*Removes bullet points from list*/
       #stats ul {
         list-style: none;
-        letter-spacing: 1vh;
         text-align: left;
+        padding-left: 10px;
+        display: block;
+        margin: 0 auto;
       }
 
       #stats ul li {
         list-style: none;
-        letter-spacing: 1vh;
+        letter-spacing: 0.3rem;
       }
 
       /*Formats attributes choice text*/
       .attribute-text {
-        font-size: 1.3vh;
-        letter-spacing: 0.5vh;
-        /*text-indent: 0.9vh;*/
+        font-size: 0.6rem;
+        letter-spacing: 0.2rem;
+        /*text-indent: 0.9rem;*/
         font-weight: 100;
         color: var(--lighter-grey);
+        display: block;
+        margin: 0 auto;
+        width: 250px
+      }
+
+      /*Styles the arrtribute name*/
+      .attribute-text .attribute-name {
+        width: 120px;
+        /*background-color: black;*/
+        display: inline-block;
+        margin-right: 20px;
       }
 
       /*Button Format*/
       .attribute-button {
-        font-size: 1vh;
-        width: 3vh;
-        height: 3vh;
-        margin-right: 2vh;
+        font-size: 0.5rem;
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
         background-color: var(--darker-grey);
         border-width: 3px;
         border-color: var(--dark-grey);
         border-style: outset;
-        margin: 1vh 1vh 1vh 1vh;
+        margin: 10px;
         -webkit-transition-duration: 0.4s; /* Safari */
         transition-duration: 0.4s;
         cursor: pointer;
         color: var(--lighter-grey);
+        text-indent: -2px;
       }
 
       .attribute-button:hover {

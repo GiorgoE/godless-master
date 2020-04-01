@@ -24,14 +24,14 @@ function Player(playerName, attributePoints, maxHP, strength, accuracy, charisma
 
 
 function minusAP(){
-  bleep.play();
+  playBleep();
   player.attributePoints = player.attributePoints - 1;
   console.log("-1 from Attribute Points")
   updateStats();
 }
 
 function addAP(){
-  bleep.play();
+  playBleep();
   player.attributePoints = player.attributePoints + 1;
   console.log("+1 to Attribute Points")
   updateStats();
@@ -39,7 +39,7 @@ function addAP(){
 
 function addStrength(){
   if (player.attributePoints > 0 && player.strength < 20) {
-  bleep.play();
+  playBleep();
   player.strength = player.strength + 1;
   minusAP();
   console.log("+1 to strength")
@@ -48,7 +48,7 @@ function addStrength(){
 
 function minusStrength(){
   if (player.strength > 1) {
-  bleep.play();
+  playBleep();
   player.strength = player.strength - 1;
   addAP();
   console.log("-1 from strength")
@@ -57,7 +57,7 @@ function minusStrength(){
 
 function addAccuracy(){
   if (player.attributePoints > 0 && player.accuracy < 20) {
-  bleep.play();
+  playBleep();
   player.accuracy = player.accuracy + 1;
   minusAP();
   console.log("+1 to accuracy")
@@ -66,7 +66,7 @@ function addAccuracy(){
 
 function minusAccuracy(){
   if (player.accuracy > 1) {
-  bleep.play();
+  playBleep();
   player.accuracy = player.accuracy - 1;
   addAP();
   console.log("-1 from accuracy")
@@ -75,7 +75,7 @@ function minusAccuracy(){
 
 function addCharisma(){
   if (player.attributePoints > 0 && player.charisma < 20) {
-  bleep.play();
+  playBleep();
   player.charisma = player.charisma + 1;
   minusAP();
   console.log("+1 to charisma")
@@ -84,7 +84,7 @@ function addCharisma(){
 
 function minusCharisma(){
   if (player.charisma > 1) {
-  bleep.play();
+  playBleep();
   player.charisma = player.charisma - 1;
   addAP();
   console.log("-1 from charisma")
@@ -93,7 +93,7 @@ function minusCharisma(){
 
 function addDexterity(){
   if (player.attributePoints > 0 && player.dexterity < 20) {
-  bleep.play();
+  playBleep();
   player.dexterity = player.dexterity + 1;
   minusAP();
   console.log("+1 to dexterity")
@@ -102,7 +102,7 @@ function addDexterity(){
 
 function minusDexterity(){
   if (player.dexterity > 1) {
-  bleep.play();
+  playBleep();
   player.dexterity = player.dexterity - 1;
   addAP();
   console.log("-1 from dexterity")
@@ -111,7 +111,7 @@ function minusDexterity(){
 
 function addMelee(){
   if (player.attributePoints > 0 && player.melee < 20) {
-  bleep.play();
+  playBleep();
   player.melee = player.melee + 1;
   minusAP();
   console.log("+1 to melee")
@@ -120,7 +120,7 @@ function addMelee(){
 
 function minusMelee(){
   if (player.melee > 1) {
-  bleep.play();
+  playBleep();
   player.melee = player.melee - 1;
   addAP();
   console.log("-1 from melee")
@@ -129,7 +129,7 @@ function minusMelee(){
 
 function addRanged(){
   if (player.attributePoints > 0 && player.ranged < 20) {
-  bleep.play();
+  playBleep();
   player.ranged = player.ranged + 1;
   minusAP();
   console.log("+1 to ranged")
@@ -138,7 +138,7 @@ function addRanged(){
 
 function minusRanged(){
   if (player.ranged > 1) {
-  bleep.play();
+  playBleep();
   player.ranged = player.ranged - 1;
   addAP();
   console.log("-1 from ranged")
@@ -147,7 +147,7 @@ function minusRanged(){
 
 function addEvasion(){
   if (player.attributePoints > 0 && player.evasion < 20) {
-  bleep.play();
+  playBleep();
   player.evasion = player.evasion + 1;
   minusAP();
   console.log("+1 to evasion")
@@ -156,7 +156,7 @@ function addEvasion(){
 
 function minusEvasion(){
   if (player.evasion > 1) {
-  bleep.play();
+  playBleep();
   player.evasion = player.evasion - 1;
   addAP();
   console.log("-1 from evasion")
@@ -165,7 +165,7 @@ function minusEvasion(){
 
 function addLuck(){
   if (player.attributePoints > 0 && player.luck < 20) {
-  bleep.play();
+  playBleep();
   player.luck = player.luck + 1;
   minusAP();
   console.log("+1 to luck")
@@ -174,7 +174,7 @@ function addLuck(){
 
 function minusLuck(){
   if (player.luck > 1) {
-  bleep.play();
+  playBleep();
   player.luck = player.luck - 1;
   addAP();
   console.log("-1 from luck")
