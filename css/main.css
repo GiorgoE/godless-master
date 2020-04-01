@@ -204,7 +204,7 @@
 
       /*Narrator Box*/
       #narrator {
-        height: 250px;
+        height: 200px;
         background-color: var(--darker-grey);
         overflow-y: scroll;
         overflow-x: hidden;
@@ -272,7 +272,7 @@
 
       /*Submit buttons*/
       .submit {
-          padding: 1.5rem;
+          padding: 0.8rem;
           margin-top: 20px;
       }
 
@@ -318,7 +318,8 @@
         color: var(--lighter-grey);
         display: block;
         margin: 0 auto;
-        width: 250px
+        width: 265px;
+        height: 30px;
       }
 
       /*Styles the arrtribute name*/
@@ -353,4 +354,6 @@
 
       .highlighted {
         color: var(--red-1);
+        display: inline-block;
+        width: 30px;
       }
